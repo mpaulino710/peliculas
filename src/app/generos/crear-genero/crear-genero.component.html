@@ -1,3 +1,5 @@
 <h2>Crear Gémero</h2>
 
-<app-forumlario-genero (onSubmit)="guardarCambios($event)"></app-forumlario-genero>
+<app-forumlario-genero 
+[errores]="errores"
+(onSubmit)="guardarCambios($event)"></app-forumlario-genero>

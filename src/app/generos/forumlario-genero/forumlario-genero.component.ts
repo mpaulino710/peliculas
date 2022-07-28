@@ -16,6 +16,9 @@ export class ForumlarioGeneroComponent implements OnInit {
   form: FormGroup;
 
   @Input()
+  errores: string[] = [];
+
+  @Input()
   modelo: generoCreacionDTO;
 
   @Output()
